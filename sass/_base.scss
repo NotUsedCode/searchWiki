@@ -35,9 +35,9 @@ $font-stack: "Roboto", Arial, sans-serif;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html, body {
@@ -60,11 +60,11 @@ footer {
   @include flexCenter;
 
   p {
-      color: $stats-color;
+    color: $stats-color;
+    font-size: 0.5rem;
+    @include mq(768px) {
       font-size: 0.5rem;
-      @include mq(768px) {
-        font-size: 0.5rem;
-      }
+    }
 
     a {
       color: $stats-color;

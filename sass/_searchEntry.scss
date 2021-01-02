@@ -69,7 +69,7 @@
     .searchButton:hover,
     .searchButton:focus {
       i {
-        color: $logo-blue;
+        color: $logo-green;
       }
     }
 
@@ -87,6 +87,7 @@
     }
 
     .clear {
+      display: flex; // will be added later using JavaScript
       justify-content: center;
       align-items: center;
       color: $stats-color;
