@@ -1,2 +1,5 @@
 @import '_base';
-@import '_sharedClasses'
+@import '_sharedClasses';
+@import '_searchEntry';
+
+//sass also supports @use besides @import but sass live compiler does not support it yet
