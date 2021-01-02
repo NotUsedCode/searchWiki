@@ -13,3 +13,30 @@
 .green {
   color: $logo-green;
 }
+
+.question-mark {
+  display: inline-block;
+  font-size: 2rem;
+  transform: rotate(5deg);
+  @include mq(768px) {
+    font-size: 3rem;
+  }
+}
+
+//making content avaiable for screen readers
+
+.offscreen {
+  position: absolute;
+  left: -10000px;
+  // display: none; => commented out as screen reader won't see the headings making them useless for accessibility
+}
+
+.none {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+
