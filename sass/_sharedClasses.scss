@@ -16,10 +16,10 @@
 
 .question-mark {
   display: inline-block;
-  font-size: 2rem;
-  transform: rotate(5deg);
+  font-size: 2.5rem;
+  transform: rotate(10deg);
   @include mq(768px) {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 }
 
